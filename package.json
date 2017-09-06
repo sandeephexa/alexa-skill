@@ -8,8 +8,17 @@
   "author": "sandeep",
   "license": "ISC",
   "dependencies": {
-    "alexa-sdk": "^1.0.13"
+    "alexa-sdk": "^1.0.13",
+    "express" : "^4.15.4"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeephexa/alexa-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sandeephexa/alexa-skill/issues"
+  },
+  "homepage": "https://github.com/sandeephexa/alexa-skill#readme",
   "description": ""
 }
