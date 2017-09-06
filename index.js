@@ -2,7 +2,7 @@ module.change_code = 1;
 'use strict';
 
 var alexa = require( 'alexa-app' );
-var app = new alexa.app( 'test-slo;;' );
+var app = new alexa.app( 'WelcomeSkill' );
 
 
 app.launch( function( request, response ) {
@@ -22,7 +22,7 @@ app.intent('GetNewWelcomeIntent',
     "slots":{"string":"STRING"}
 	,"utterances":[ 
 		"say hi ",
-		"say hello {1-100|number}",
+		"say hello {string}",
 		]
   },
   function(request,response) {
