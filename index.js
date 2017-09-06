@@ -33,7 +33,7 @@ app.error = function( exception, request, response ) {
 // );
 app.intent('GetNewWelcomeIntent',function(request,response) {
     var name = request.slot('name');
-    response.say("Your name is "+zodiac+" Thank You!!! have a good day");
+    response.say("Your name is "+name+" Thank You!!! have a good day");
   }
 );
 module.exports = app;
